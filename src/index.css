@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.custom-video::-webkit-media-controls-timeline,
+.custom-video::-moz-range-track,
+.custom-video::-webkit-slider-thumb {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+video::-moz-media-controls {
+  display: none !important;
+}
+video::-ms-media-controls {
+  display: none !important;
+}
+
